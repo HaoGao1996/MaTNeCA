@@ -19,8 +19,9 @@ The main functions includes:
 - CtrMinISOC: Minimum Input Selections Output Control
 - test_demon: test all function using test_network1.mat
 
-
 Hao Gao. MaTNeCA: MatLab Toolkit for Network Control Analysis. 2020
+
+Current version is 0.1 for further using.
 
 Copyright: Hao Gao (Hougogh)
 Contact: ggogh111@gmail.com
