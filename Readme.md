@@ -24,5 +24,9 @@ Hao Gao. MaTNeCA: MatLab Toolkit for Network Control Analysis. 2020
 Current version is 0.11 for further using.
 
 Copyright: Hao Gao (Hougogh)
-Contact: ggogh111@gmail.coms
+
+Contact: ggogh111@gmail.com
+
+Homepage: https://haogao1996.github.io/
+
 Date: 2020/08/03
