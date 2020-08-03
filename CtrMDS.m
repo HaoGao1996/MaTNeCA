@@ -10,8 +10,10 @@ function MDS = CtrMDS(A)
 % networks. Nature 473(7346), 167 (2011)
 
 % Copyright: Hao Gao (Hougogh)
-% Contact: ggogh111@gmail.com
-% Date: 2020/07/30
+% Contact: ggogh111@gmail.coms
+% Date: 2020/08/03
+
+% ---version 0.11---
 
 %% Construct bipartite graph
 A = A'; % Aij: j->i

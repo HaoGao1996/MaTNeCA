@@ -1,11 +1,11 @@
 function PCOC = CtrPCOC(A, isON, CN)
-% FUNCTION: constrained output control
+% FUNCTION: preferential constrained output control
 % INPUT:
 % A: is the directed network, where aij: i->j
-% isON: is output nodes
+% isON: is output nodes???
 % CN: weighted constrained nodes
 % OUTPUT:
-% PCOC
+% PCOC: driver nodes in constrained nodes
 
 % Reference
 % Hao Gao*, Xiangmao Meng*, Min Li and Fang-Xiang Wu, MinISOC: Minimum Input 
@@ -15,8 +15,10 @@ function PCOC = CtrPCOC(A, isON, CN)
 % Hao Gao. MaTNeCA: MatLab Toolkit for Network Control Analysis. 2020
 
 % Copyright: Hao Gao (Hougogh)
-% Contact: ggogh111@gmail.com
-% Date: 2020/07/30
+% Contact: ggogh111@gmail.coms
+% Date: 2020/08/03
+
+% ---version 0.11---
 
 %% Maximum Weighted Complete Matching (MWCM)
 A = full(A);

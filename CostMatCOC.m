@@ -2,8 +2,8 @@ function B = CostMatCOC(A, isON, isCN)
 % FUNCTION: Generate weighted bipartite network
 % INPUT:
 % A: adjacent matrix: %aij: i->j
-% isON: is output nodes
-% isCN: is constained nodes
+% isON: is output nodes???
+% isCN: is constained nodes???
 % OUTPUT:
 % B: weighted bipartite network
 
@@ -15,8 +15,10 @@ function B = CostMatCOC(A, isON, isCN)
 % Hao Gao. MaTNeCA: MatLab Toolkit for Network Control Analysis. 2020
 
 % Copyright: Hao Gao (Hougogh)
-% Contact: ggogh111@gmail.com
-% Date: 2020/07/30
+% Contact: ggogh111@gmail.coms
+% Date: 2020/08/03
+
+% ---version 0.11---
 
 %%
 A = A'; % aij j->i

@@ -3,17 +3,19 @@ function sf = solveAccessibility(A, so, isON, isCN)
 % INPUT:
 % A: is the directed network, where aij: i->j
 % so: original steering nodes
-% isON: is output nodes
-% isCN: is constrained nodes
+% isON: is output nodes???
+% isCN: is constrained nodes???
 % OUTPUT:
 % sf: final steering nodes
 
 % Copyright: Hao Gao (Hougogh)
-% Contact: ggogh111@gmail.com
-% Date: 2020/07/30
+% Contact: ggogh111@gmail.coms
+% Date: 2020/08/03
+
+% ---version 0.11---
 
 %% if the input nodes have no constrains
-if narin == 3
+if nargin == 3
     A = sparse(A);
     inAccessibleNode = get_inAccessibleNode(A, so, isON);
     

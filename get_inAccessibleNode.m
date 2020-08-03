@@ -4,13 +4,15 @@ function inAccessibleNode = get_inAccessibleNode(A, so, isON)
 % INPUT:
 % A: is the directed network, where aij: i->j
 % so: original steering nodes
-% isON: is output nodes
+% isON: is output nodes???
 % OUTPUT:
 % inAccessibleNode: inaccessible nodes
 
 % Copyright: Hao Gao (Hougogh)
-% Contact: ggogh111@gmail.com
-% Date: 2020/07/30
+% Contact: ggogh111@gmail.coms
+% Date: 2020/08/03
+
+% ---version 0.11---
 
 %%
 d = [];

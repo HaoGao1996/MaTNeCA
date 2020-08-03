@@ -1,8 +1,10 @@
 % Content:
 
 % Copyright: Hao Gao (Hougogh)
-% Contact: ggogh111@gmail.com
-% Date: 2020/07/30
+% Contact: ggogh111@gmail.coms
+% Date: 2020/08/03
+
+% ---version 0.11---
 
 %% 
 % 1. assign2D: Maximum Weighted Complete Matching (MWCM)

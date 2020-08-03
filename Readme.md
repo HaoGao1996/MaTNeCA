@@ -21,8 +21,8 @@ The main functions includes:
 
 Hao Gao. MaTNeCA: MatLab Toolkit for Network Control Analysis. 2020
 
-Current version is 0.1 for further using.
+Current version is 0.11 for further using.
 
 Copyright: Hao Gao (Hougogh)
-Contact: ggogh111@gmail.com
-Date: 2020/07/30
+Contact: ggogh111@gmail.coms
+Date: 2020/08/03

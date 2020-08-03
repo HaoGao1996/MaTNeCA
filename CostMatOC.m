@@ -4,7 +4,7 @@ function B = CostMatOC(A, isON)
 % A: adjacent matrix: %aij: i-j
 % isON: is output nodes???
 % OUTPUT:
-% B: bipartite graph
+% B: weighted bipartite graph
 
 % Reference
 % Wu, L., Shen, Y., Li, M., Wu, F.X.: Network output controllability-based method
@@ -13,8 +13,10 @@ function B = CostMatOC(A, isON)
 % Hao Gao. MaTNeCA: MatLab Toolkit for Network Control Analysis. 2020
 
 % Copyright: Hao Gao (Hougogh)
-% Contact: ggogh111@gmail.com
-% Date: 2020/07/30
+% Contact: ggogh111@gmail.coms
+% Date: 2020/08/03
+
+% ---version 0.11---
 
 %%
 A = A'; % aij j->i

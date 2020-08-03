@@ -2,10 +2,10 @@ function SPOC = CtrSPOC(A, isON, isPN)
 % FUNCTION: set preference output control
 % INPUT:
 % A: is the directed network, where aij: i->j
-% isON: is output nodes
-% isPN: is preferential nodes
+% isON: is output nodes???
+% isPN: is preferential nodes???
 % OUTPUT:
-% SPOC: 
+% SPOC: driver nodes for SPOC
 
 % Reference:
 % Hao Gao, Min Li and Fang-Xiang Wu. SPOC: Identification of Drug Targets in 
@@ -14,8 +14,10 @@ function SPOC = CtrSPOC(A, isON, isPN)
 % Hao Gao. MaTNeCA: MatLab Toolkit for Network Control Analysis. 2020
 
 % Copyright: Hao Gao (Hougogh)
-% Contact: ggogh111@gmail.com
-% Date: 2020/07/30
+% Contact: ggogh111@gmail.coms
+% Date: 2020/08/03
+
+% ---version 0.11---
 
 %% Maximum Weighted Complete Matching (MWCM)
 A = full(A);

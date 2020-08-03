@@ -2,8 +2,8 @@ function B = CostMatSPOC(A, isON, isPN)
 % FUNCTION: Generate weighted bipartite network
 % INPUT:
 % A: adjacent matrix: %aij: i->j
-% isON: is output nodes
-% isPN: is preferential nodes
+% isON: is output nodes???
+% isPN: is preferential nodes???
 % OUTPUT:
 % B: weighted bipartite network
 
@@ -14,8 +14,10 @@ function B = CostMatSPOC(A, isON, isPN)
 % Hao Gao. MaTNeCA: MatLab Toolkit for Network Control Analysis. 2020
 
 % Copyright: Hao Gao (Hougogh)
-% Contact: ggogh111@gmail.com
-% Date: 2020/07/30
+% Contact: ggogh111@gmail.coms
+% Date: 2020/08/03
+
+% ---version 0.11---
 
 %%
 A = A'; % aij j->i
